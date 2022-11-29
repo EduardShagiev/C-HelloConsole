@@ -10,7 +10,7 @@ if (a>b)
     Console.WriteLine($"Число A={a} большее");
 } 
 else if(b>a) 
-{1
+{
     Console.WriteLine($"Число B={b} большее");
 }
 else 
