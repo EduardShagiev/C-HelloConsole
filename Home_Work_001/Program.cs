@@ -7,11 +7,11 @@ Console.WriteLine("Введите второе число B");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a>b)
 {
-    Console.WriteLine($"Число A={a} большее);
+    Console.WriteLine($"Число A={a} большее");
 } 
 else if(b>a) 
-{
-    Console.WriteLine($"Число B={b} большее);
+{1
+    Console.WriteLine($"Число B={b} большее");
 }
 else 
 {
