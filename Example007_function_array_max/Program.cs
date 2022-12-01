@@ -5,16 +5,19 @@ string s = Console.ReadLine()?? "";
 string[] sarr= s.Split();
 int[] valarr = new int[sarr.Length];
 
+ Console.WriteLine(" 1 = Операция конвертации успешна");
+ Console.WriteLine(" 0 = Не удалось конвертировать");
+
 for (int i = 0; i < sarr.Length; i++)
 {
     bool result = int.TryParse(sarr[i], out valarr[i]);
     if (result)
     {    
-        Console.WriteLine("Операция конвертации успешна");
+        Console.WriteLine($"1 = {sarr[i]}");//1="Операция конвертации успешна"
     }
     else
     {  
-        Console.WriteLine("Не удалось конвертировать");
+        Console.WriteLine($"0 = {sarr[i]}"); //0=Не удалось конвертировать
     }
 }
 int funserchmaxval(int[] x)
@@ -31,7 +34,7 @@ while(index <x.Length)
  }
 return max_value;
 }
-
+Console.WriteLine(" ");
 Console.WriteLine("Max value =" + funserchmaxval(valarr));
 
    // for (int i = 0; i < sarr.Length; i++)
