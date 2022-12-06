@@ -5,7 +5,7 @@ Console.WriteLine("Введите число");
 string s = Console.ReadLine()??"";
 char[] str = s.ToCharArray();
 
-void CheckPolim(char[] value)
+void CheckPalim(char[] value)
 {
   int len=value.Length;
   int index=0;
@@ -25,5 +25,5 @@ void CheckPolim(char[] value)
   else  {Console.Write ("Чиcло не палиндром");}
 }
 
- CheckPolim(str);
+ CheckPalim(str);
 
