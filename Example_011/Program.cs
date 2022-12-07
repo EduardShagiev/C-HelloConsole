@@ -9,6 +9,6 @@ double DistBetPoint (int x1, int y1, int x2, int y2)
   return result;
 } 
 
-Console.WriteLine(DestBetPoint(3,6,2,1));
-Console.WriteLine(DestBetPoint(7,-5,1,-1));
+Console.WriteLine(DistBetPoint(3,6,2,1));
+Console.WriteLine(DistBetPoint(7,-5,1,-1));
 
