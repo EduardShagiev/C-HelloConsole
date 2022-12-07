@@ -13,7 +13,7 @@ void CheckPalim(char[] value)
     bool Palindrome = true;
     while (first < last)
     {
-        if (str[first] == str[last])
+        if (value[first] == value[last])
         {
             first = first + 1;
             last = last - 1;
