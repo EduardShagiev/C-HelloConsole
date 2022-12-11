@@ -2,23 +2,6 @@
 //и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
-// Console.WriteLine("Введите числа через запятую");
-// string ins=Console.ReadLine()??"";
-// void inputarr(string str)
-// {
-//     int[]  arr = new int[8];
-//     string[] s=str.Split(",");
-//     int i=0;
-//     Console.Write("[");
-//     while(i<s.Length)
-//     {
-//         arr[i]=Convert.ToInt32(s[i]);
-//         Console.Write("{0},", arr[i]);
-//         i++;
-//     }
-//     Console.Write("]");
-// }
-// inputarr(ins);
 //метод, который получает число с консоли
 int GetNumber(string message)
 {
