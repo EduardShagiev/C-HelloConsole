@@ -67,7 +67,7 @@ void SortMax(int[] array)
         int minpositon=i;
         for (int j = i+1; j < array.Length; j++)
         {
-            if (array[j]<array[minpositon])
+            if (array[j]>array[minpositon])
             {
                 minpositon=j;
             }
