@@ -28,7 +28,7 @@ int [] ArrayFilling(int size)
 
     for (int i = 0; i < array.Length; i++)
     {
-        array[i]= random.Next(0,10);
+        array[i]= random.Next(-10,10);
     }
     return array;
 }
@@ -60,4 +60,4 @@ int number = GetNumber("Введите значение длины массив�
 int [] newarray= ArrayFilling(number);
 PrintArray(newarray);
 int newsumm= SummaOddPos(newarray);
-Console.WriteLine($"Сумма значений в нечетных позицияъ массива  = {newsumm}");
+Console.WriteLine($"Сумма значений в нечетных позициях массива  = {newsumm}");

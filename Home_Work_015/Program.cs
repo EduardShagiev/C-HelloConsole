@@ -16,7 +16,7 @@ int GetNumber (string message)
         }
         else 
         {
-            Console.WriteLine("Ввели не корректное значениеб повторите ввод\n");
+            Console.WriteLine("Ввели не корректное значение, повторите ввод\n");
         }
     }
     return result;
