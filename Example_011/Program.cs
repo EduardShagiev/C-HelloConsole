@@ -12,3 +12,31 @@ double DistBetPoint (int x1, int y1, int x2, int y2)
 Console.WriteLine(DistBetPoint(3,6,2,1));
 Console.WriteLine(DistBetPoint(7,-5,1,-1));
 
+// string NumbersRes(int a , int b)
+// {
+//     if (a<=b) return $"{a} " + NumbersRes(a+2,b);
+//     else return String.Empty;
+// }
+// System.Console.WriteLine(NumbersRes(1,10));
+
+// int SumRec(int n)
+// {
+//     if (n==0) return 0;
+//     else return n+SumRec(n-1);
+// }
+// System.Console.WriteLine(SumRec(15));
+
+// int FactorialRec(int n)
+// {
+//     if (n==1) return 1;
+//     else return n*FactorialRec(n-1);
+// }
+// System.Console.WriteLine(FactorialRec(6));
+
+// int DegreelRec(int a, int n)
+// {
+//     //return n==0 ? 1 : DegreelRec(a,n-1)*a;
+//     if (n==0) return 1;
+//     else return DegreelRec(a,n-1)*a;
+// }
+// System.Console.WriteLine(DegreelRec(2,4));
