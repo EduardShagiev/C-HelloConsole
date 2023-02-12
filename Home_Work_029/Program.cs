@@ -6,5 +6,5 @@ int NaturalRec(int M, int N)
 {
     return M<=N ?  M + NaturalRec(M+1,N) : 0 ;
 }
-System.Console.WriteLine(NaturalRec(1,15));
+System.Console.WriteLine(NaturalRec(1,20));
 
