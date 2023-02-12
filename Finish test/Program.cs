@@ -12,4 +12,9 @@ int realSize = 0;
                     realSize++;
                 }
         }
- Console.WriteLine(string.Join(Environment.NewLine, result, 0, realSize));
+ for (int i = 0; i < result.Length;i++)
+ {
+     Console.Write(result[i]+ " ");
+ }
+
+
